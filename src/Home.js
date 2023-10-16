@@ -24,7 +24,13 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
         <div className="absolute left-2/3 top-1/4  z-10 w-[300px]">
-          <img src={BandLogo} height="400px" width="400px" className="mb-16" />
+          <img
+            src={BandLogo}
+            height="400px"
+            width="400px"
+            className="mb-16"
+            alt="homepage banner"
+          />
           <a
             className="flex items-center justify-between mb-6 text-xl text-white rounded-lg bg-stone-500 hover:bg-white/10"
             href="#contact"
@@ -61,6 +67,7 @@ const Home = () => {
               height="400px"
               width="400px"
               className="w-auto h-full"
+              alt="horse you came in on"
             />
           </div>
           <div className="w-[400px] h-[400px] overflow-hidden">
@@ -69,6 +76,7 @@ const Home = () => {
               height="400px"
               width="400px"
               className="w-auto h-full"
+              alt="waterfront hotel"
             />
           </div>
         </div>
