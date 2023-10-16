@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ContactForm = () => {
   return (
-    <form name="contact">
+    <form name="contact" netlify>
       <input type="hidden" name="form-name" value="contact" />
 
       <div className="grid grid-cols-1 pb-12 border-b gap-x-8 gap-y-10 border-gray-900/10 md:grid-cols-3">
