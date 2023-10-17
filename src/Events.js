@@ -54,7 +54,7 @@ const Events = () => {
   });
 
   return (
-    <div className="divide-y rounded bg-stone-500">
+    <div className="divide-y rounded-lg bg-stone-500">
       {filteredData.map((card) => {
         const momentDate = moment(card.date);
         const formattedDate = momentDate.format('MMMM Do @ ha');
