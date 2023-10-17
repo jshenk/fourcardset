@@ -35,14 +35,14 @@ const Home = () => {
           />
           <div className="w-full">
             <a
-              className="flex items-center justify-between mb-6 text-xl text-white rounded-lg bg-stone-500 hover:bg-white/10 max-w-[300px] mx-auto"
+              className="flex items-center justify-between mb-6 text-xl text-white rounded-lg bg-stone-500 hover:bg-white/10 lg:max-w-[300px] mx-auto"
               href="#contact"
             >
               <span className="p-4 text-base lg:p-6">Contact Us</span>
               <span className="p-4 border-l lg:p-6">&#8594;</span>
             </a>
             <a
-              className="flex items-center justify-between text-xl text-white rounded-lg bg-white/10 hover:bg-stone-500 max-w-[300px] mx-auto"
+              className="flex items-center justify-between text-xl text-white rounded-lg bg-white/10 hover:bg-stone-500 lg:max-w-[300px] mx-auto"
               href="#events"
             >
               <span className="p-4 text-base lg:p-6">See Us Live</span>

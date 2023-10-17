@@ -1,47 +1,87 @@
+import moment from 'moment/moment';
+
 const cards = [
   {
     name: 'Waterfront Hotel',
     location: 'Balitmore, MD',
-    description: 'October 21 @ 9:00 pm - 1:00 am',
+    date: '2023-10-21T21:00:00',
+    time: '9:00 pm',
+    link: 'https://maps.app.goo.gl/6MwuwqL5zuxxDgAx7',
     id: 1,
   },
   {
     name: 'Waterfront Hotel',
     location: 'Balitmore, MD',
-    description: 'November 11 @ 9:00 pm - 1:00 am',
+    date: '2023-11-11T21:00:00',
+    time: '9:00 pm',
+    link: 'https://maps.app.goo.gl/6MwuwqL5zuxxDgAx7',
     id: 2,
   },
   {
     name: 'The Horse You Came In On Saloon',
     location: 'Balitmore, MD',
-    description: 'November 18 @ 10:00 pm - 1:00 am',
+    date: '2023-11-18T21:00:00',
+    time: '9:00 pm',
+    link: 'https://maps.app.goo.gl/9mGREGDpzSeVmv1G7',
     id: 3,
   },
   {
     name: 'The Horse You Came In On Saloon',
     location: 'Balitmore, MD',
-    description: 'December 9 @ 10:00 pm - 1:00 am',
+    date: '2023-12-09T21:00:00',
+    time: '9:00 pm',
+    link: 'https://maps.app.goo.gl/9mGREGDpzSeVmv1G7',
     id: 4,
+  },
+  {
+    name: 'test old show',
+    location: 'Balitmore, MD',
+    date: '2023-10-16T21:00:00',
+    time: '9:00 pm',
+    link: 'https://maps.app.goo.gl/6MwuwqL5zuxxDgAx7',
+    id: 5,
   },
 ];
 
 const Events = () => {
+  // Get the current date
+  const currentDate = new Date();
+
+  // Filter out objects with a date field that is not in the past
+  const filteredData = cards.filter((item) => {
+    const itemDate = new Date(item.date);
+    return itemDate >= currentDate;
+  });
+
   return (
     <div className="divide-y rounded bg-stone-500">
-      {cards.map((card) => (
-        <div key={card.id} className="flex p-6">
-          <div className="w-full text-base leading-7">
-            <div className="items-center justify-between lg:flex">
-              <h3 className="font-bold text-white">{card.name}</h3>
-              <div className="text-xs text-white uppercase">
-                {card.location}
-              </div>
-            </div>
+      {filteredData.map((card) => {
+        const momentDate = moment(card.date);
+        const formattedDate = momentDate.format('MMMM Do @ ha');
 
-            <p className="mt-2 text-gray-300">{card.description}</p>
+        return (
+          <div key={card.id} className="flex p-6">
+            <div className="w-full text-base leading-7">
+              <div className="items-center justify-between lg:flex">
+                <h3 className="font-bold text-white">
+                  <a
+                    href={card.link}
+                    target="_blank"
+                    className="hover:underline"
+                  >
+                    {card.name}
+                  </a>
+                </h3>
+                <div className="text-xs text-white uppercase">
+                  {card.location}
+                </div>
+              </div>
+
+              <p className="mt-2 text-gray-300">{formattedDate}</p>
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 };
