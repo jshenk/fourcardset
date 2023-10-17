@@ -19,13 +19,13 @@ const Home = () => {
           autoPlay
           muted
           loop
-          className="object-cover w-full overflow-hidden h-[400px] lg:h-screen lg:w-2/3"
+          className="object-cover w-full overflow-hidden h-[400px] lg:h-screen lg:w-3/5"
         >
           <source src={BannerVideo} type="video/webm" />
           <source src={BannerVideoMP4} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="z-10 px-5 py-10 align-middle lg:h-screen lg:w-1/3 lg:flex lg:flex-wrap lg:items-center lg:pb-3">
+        <div className="z-10 px-5 py-10 align-middle lg:h-screen lg:w-2/5 lg:flex lg:flex-wrap lg:items-center lg:pb-3">
           <img
             src={BandLogo}
             height="400px"
