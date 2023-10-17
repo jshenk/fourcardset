@@ -67,6 +67,7 @@ const Events = () => {
                   <a
                     href={card.link}
                     target="_blank"
+                    rel="noreferrer"
                     className="hover:underline"
                   >
                     {card.name}
