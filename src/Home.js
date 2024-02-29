@@ -1,8 +1,6 @@
 import './App.css';
 
-import BannerVideo from './assets/BannerVideo.webm';
 import BandCover from './assets/BandCover.jpg';
-import BannerVideoMP4 from './assets/BannerVideoMP4.mp4';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
