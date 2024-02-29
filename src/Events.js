@@ -2,6 +2,9 @@ import moment from 'moment/moment';
 import Event from './components/Event';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Waterfront from './assets/Waterfront.jpeg';
+import Horse from './assets/Horse.jpg';
+import Group from './assets/Group.jpeg';
 
 const cards = [
   {
@@ -47,16 +50,22 @@ const Events = () => {
   return (
     <div className="bg-black ">
       <Header />
-      <div className="h-screen pt-10">
-        <div className="w-full max-w-5xl mx-auto mb-10 lg:w-1/2 lg:mb-0">
+      <div className="pt-10 pb-20">
+        <div className="w-full max-w-5xl px-6 mx-auto">
           <h2
-            className="mb-10 text-3xl font-bold tracking-tight text-white"
+            className="mb-20 text-3xl font-bold tracking-tight text-white lg:text-5xl"
             id="events"
           >
             See Us Live
           </h2>
           <div>
-            <div className="divide-y rounded-lg bg-stone-500">
+            <div className="grid grid-cols-3 mb-10 gap-x-3">
+              <img src={Waterfront} alt="waterfront" />
+              <img src={Group} alt="group" />
+              <img src={Horse} alt="horse" />
+            </div>
+
+            <div className="divide-y">
               {filteredData.map((card) => {
                 const momentDate = moment(card.date);
                 const formattedDate = momentDate.format('MMMM Do @ h:mma');

@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <div>
       <nav>
-        <ul className="flex flex-none min-w-full px-2 text-xl font-semibold leading-6 text-white uppercase gap-x-6">
+        <ul className="flex flex-none min-w-full px-2 text-sm font-semibold leading-6 text-white uppercase  lg:text-xl gap-x-6">
           <li>
             <NavLink
               to="/"

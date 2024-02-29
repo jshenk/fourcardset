@@ -1,6 +1,6 @@
 export default function Event({ link, name, location, date }) {
   return (
-    <div className="flex p-6">
+    <div className="flex py-6">
       <div className="w-full text-base leading-7">
         <div className="items-center justify-between lg:flex">
           <h3 className="font-bold text-white">
