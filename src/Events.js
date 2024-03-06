@@ -17,23 +17,37 @@ const cards = [
   {
     name: 'The Horse You Came In On Saloon',
     location: 'Balitmore, MD',
-    date: '2024-03-16T21:00:00',
+    date: '2024-03-16T21:30:00',
     link: 'https://maps.app.goo.gl/9mGREGDpzSeVmv1G7',
     id: 2,
   },
   {
     name: 'Waterfront Hotel',
     location: 'Balitmore, MD',
-    date: '2024-04-06T21:00:00',
+    date: '2024-04-06T21:30:00',
     link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
     id: 3,
   },
   {
     name: 'The Horse You Came In On Saloon',
     location: 'Balitmore, MD',
-    date: '2024-04-20T21:00:00',
+    date: '2024-04-20T21:30:00',
     link: 'https://maps.app.goo.gl/9mGREGDpzSeVmv1G7',
     id: 4,
+  },
+  {
+    name: 'Waterfront Hotel',
+    location: 'Balitmore, MD',
+    date: '2024-05-04T21:30:00',
+    link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
+    id: 5,
+  },
+  {
+    name: 'OLAR Chili Cookoff',
+    location: 'Balitmore, MD',
+    date: '2024-05-19T12:00:00',
+    link: 'https://www.olarbmore.com/',
+    id: 6,
   },
 ];
 
