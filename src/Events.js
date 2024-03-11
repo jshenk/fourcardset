@@ -17,7 +17,7 @@ const cards = [
   {
     name: 'The Horse You Came In On Saloon',
     location: 'Balitmore, MD',
-    date: '2024-03-16T21:30:00',
+    date: '2024-03-16T17:00:00',
     link: 'https://maps.app.goo.gl/9mGREGDpzSeVmv1G7',
     id: 2,
   },
