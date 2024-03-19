@@ -1,6 +1,6 @@
 import './App.css';
 
-import BandCover from './assets/BandCover.jpg';
+import BandCover from './assets/BandCover2.jpeg';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
@@ -19,7 +19,7 @@ const Home = () => {
           <Header size="large" />
         </div>
       </div>
-      <div className="bottom-0 left-0 right-0 bg-black lg:absolute">
+      <div className="absolute bottom-0 left-0 right-0 bg-black">
         <Footer />
       </div>
     </div>

@@ -49,6 +49,27 @@ const cards = [
     link: 'https://www.olarbmore.com/',
     id: 6,
   },
+  {
+    name: 'Waterfront Hotel',
+    location: 'Balitmore, MD',
+    date: '2024-07-27T21:30:00',
+    link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
+    id: 7,
+  },
+  {
+    name: 'Waterfront Hotel',
+    location: 'Balitmore, MD',
+    date: '2024-08-10T21:30:00',
+    link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
+    id: 8,
+  },
+  {
+    name: 'Waterfront Hotel',
+    location: 'Balitmore, MD',
+    date: '2024-10-25T21:30:00',
+    link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
+    id: 9,
+  },
 ];
 
 const Events = () => {
