@@ -11,7 +11,7 @@ export default function Navigation() {
               isActive ? 'border-b-2 pb-1' : 'hover:border-b-2 pb-1'
             }
           >
-            Events
+            Shows
           </NavLink>
         </li>
         <li>
