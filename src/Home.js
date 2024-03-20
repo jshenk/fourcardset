@@ -12,14 +12,14 @@ const Home = () => {
           <img
             src={BandCover}
             alt="homepage banner"
-            className="lg:absolute lg:bottom-0 lg:left-0 object-cover w-full max-md:h-[700px] object-bottom"
+            className="object-cover object-bottom w-full h-screen lg:absolute lg:bottom-0 lg:left-0"
           />
         </div>
         <div className="absolute top-0 left-0 right-0 pb-40 bg-gradient-to-b from-black">
           <Header size="large" />
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 bg-black">
+      <div className="bg-black ">
         <Footer />
       </div>
     </div>

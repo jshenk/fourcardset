@@ -2,41 +2,29 @@ import { NavLink } from 'react-router-dom';
 
 export default function Navigation() {
   return (
-    <div>
-      <nav>
-        <ul className="flex flex-none min-w-full text-xs font-semibold leading-6 text-white uppercase md:text-sm lg:text-xl gap-x-6">
-          <li>
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                isActive ? 'border-b-2 pb-1' : 'hover:border-b-2 pb-1'
-              }
-            >
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/events"
-              className={({ isActive }) =>
-                isActive ? 'border-b-2 pb-1' : 'hover:border-b-2 pb-1'
-              }
-            >
-              Events
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/contact"
-              className={({ isActive }) =>
-                isActive ? 'border-b-2 pb-1' : 'hover:border-b-2 pb-1'
-              }
-            >
-              Contact
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <ul className="w-full mt-10 space-y-10 text-2xl font-semibold leading-6 text-center text-white uppercase lg:space-y-0 lg:flex md:text-sm lg:text-lg gap-x-6 lg:mt-0">
+        <li>
+          <NavLink
+            to="/events"
+            className={({ isActive }) =>
+              isActive ? 'border-b-2 pb-1' : 'hover:border-b-2 pb-1'
+            }
+          >
+            Events
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive ? 'border-b-2 pb-1' : 'hover:border-b-2 pb-1'
+            }
+          >
+            Contact
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 }
