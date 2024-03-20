@@ -52,7 +52,7 @@ export default function Header({ size = 'small', className }) {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 flex flex-col w-full px-6 py-6 overflow-y-auto bg-black/80 sm:max-w-sm sm:ring-1 sm:ring-white/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 flex flex-col w-full px-6 py-6 overflow-y-auto bg-black sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Four Card Set</span>
