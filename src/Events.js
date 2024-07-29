@@ -8,67 +8,24 @@ import Group from './assets/Group.jpeg';
 
 const cards = [
   {
-    name: "The Admiral's Cup",
-    location: 'Balitmore, MD',
-    date: '2024-03-09T21:00:00',
-    link: 'https://maps.app.goo.gl/JbbBvqS28mbnxdDf9',
-    id: 1,
-  },
-  {
-    name: 'The Horse You Came In On Saloon',
-    location: 'Balitmore, MD',
-    date: '2024-03-16T17:00:00',
-    link: 'https://maps.app.goo.gl/9mGREGDpzSeVmv1G7',
-    id: 2,
-  },
-  {
-    name: 'Waterfront Hotel',
-    location: 'Balitmore, MD',
-    date: '2024-04-06T21:30:00',
-    link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
-    id: 3,
-  },
-  {
-    name: 'The Horse You Came In On Saloon',
-    location: 'Balitmore, MD',
-    date: '2024-04-20T21:30:00',
-    link: 'https://maps.app.goo.gl/9mGREGDpzSeVmv1G7',
-    id: 4,
-  },
-  {
-    name: 'Waterfront Hotel',
-    location: 'Balitmore, MD',
-    date: '2024-05-04T21:30:00',
-    link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
-    id: 5,
-  },
-  {
-    name: 'OLAR Chili Cookoff',
-    location: 'Balitmore, MD',
-    date: '2024-05-19T12:00:00',
-    link: 'https://www.olarbmore.com/',
-    id: 6,
-  },
-  {
-    name: 'Waterfront Hotel',
-    location: 'Balitmore, MD',
-    date: '2024-07-27T21:30:00',
-    link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
-    id: 7,
-  },
-  {
     name: 'Waterfront Hotel',
     location: 'Balitmore, MD',
     date: '2024-08-10T21:30:00',
     link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
-    id: 8,
+    id: 1,
+  },
+    {
+    name: 'Private Event',
+    location: 'Balitmore, MD',
+    date: '2024-08-31T21:30:00',
+    id: 2,
   },
   {
     name: 'Waterfront Hotel',
     location: 'Balitmore, MD',
     date: '2024-10-25T21:30:00',
     link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
-    id: 9,
+    id: 3,
   },
 ];
 
