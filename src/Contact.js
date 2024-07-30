@@ -6,9 +6,9 @@ export default function ContactUs() {
   return (
     <div className="bg-black">
       <Header />
-      <div className="h-screen max-w-5xl px-5 pt-10 mx-auto lg:py-20 lg:px-0">
+      <div className="h-screen max-w-5xl px-5 pt-10 mx-auto">
         <h2
-          className="mb-5 text-3xl font-bold tracking-tight text-white"
+          className="mb-20 text-3xl font-bold tracking-tight text-white lg:text-5xl"
           id="contact"
         >
           Contact Us

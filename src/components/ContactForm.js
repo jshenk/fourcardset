@@ -90,7 +90,7 @@ export const ContactForm = () => {
           <div className="col-span-full">
             <button
               type="submit"
-              className="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="inline-block px-4 py-3 mt-4 text-xs font-semibold text-black uppercase rounded shadow-sm bg-zinc-200 hover:bg-zinc-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-200"
             >
               Submit
             </button>

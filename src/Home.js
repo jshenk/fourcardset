@@ -1,6 +1,6 @@
 import './App.css';
 
-import BandCover from './assets/BandCover.JPG';
+import BandCover from './assets/BandCover.jpeg';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
