@@ -46,6 +46,8 @@ const Events = () => {
                     name={card.name}
                     location={card.location}
                     date={formattedDate}
+                    tickets={card.tickets}
+                    description={card.description}
                   />
                 );
               })}

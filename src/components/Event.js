@@ -1,4 +1,11 @@
-export default function Event({ link, name, location, date }) {
+export default function Event({
+  link,
+  name,
+  location,
+  date,
+  tickets,
+  description,
+}) {
   return (
     <div className="flex py-6">
       <div className="w-full text-base leading-7">
@@ -21,6 +28,22 @@ export default function Event({ link, name, location, date }) {
         </div>
 
         <p className="mt-2 text-gray-300">{date}</p>
+        {description && (
+          <div
+            className="mt-2 text-white"
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
+        )}
+        {tickets && (
+          <a
+            href={tickets}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-block px-4 py-3 mt-4 text-xs font-semibold text-black uppercase rounded shadow-sm bg-zinc-200 hover:bg-zinc-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-200"
+          >
+            Get Tickets
+          </a>
+        )}
       </div>
     </div>
   );
