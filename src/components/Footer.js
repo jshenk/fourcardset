@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="p-3">
+    <div className="px-3 py-12">
       <div className="flex items-center justify-center">
         <p className="text-white uppercase ">© Four Card Set</p>
         <nav>

@@ -1,6 +1,6 @@
 import BandLogo from '../assets/BandLogo.png';
 import Navigation from '../components/Navigation';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Footer from './Footer';
@@ -8,15 +8,42 @@ import Footer from './Footer';
 export default function Header({ size = 'small', className }) {
   const logoSize = {
     small: '100px',
-    large: '200px',
+    large: '300px',
   };
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const [show, setShow] = useState(true);
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        // Scrolling down
+        setShow(false);
+      } else {
+        // Scrolling up
+        setShow(true);
+      }
+      lastScrollY = window.scrollY;
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <header>
       <nav
-        className="flex items-center justify-between px-6 py-6 lg:px-14"
+        className={`flex items-center justify-between px-6 pb-6 pt-12 lg:px-14 transition-all duration-1000 ${
+          show
+            ? 'lg:transform lg:translate-y-0 lg:opacity-100'
+            : 'lg:transform lg:-translate-y-full lg:opacity-0'
+        }`}
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -27,7 +54,7 @@ export default function Header({ size = 'small', className }) {
               height={logoSize[size]}
               width={logoSize[size]}
               alt="homepage banner"
-              className="w-12 h-12 md:h-16 md:w-16"
+              className="w-12 h-12 lg:h-28 lg:w-28"
             />
           </a>
         </div>
