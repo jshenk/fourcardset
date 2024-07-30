@@ -39,7 +39,7 @@ export default function Header({ size = 'small', className }) {
   return (
     <header>
       <nav
-        className={`flex items-center justify-between px-6 pb-6 pt-12 lg:px-14 transition-all duration-1000 ${
+        className={`flex items-center justify-between px-6 pb-6 pt-12 lg:px-14 transition-all duration-700 ${
           show
             ? 'lg:transform lg:translate-y-0 lg:opacity-100'
             : 'lg:transform lg:-translate-y-full lg:opacity-0'
