@@ -23,7 +23,7 @@ const Events = () => {
       <div className="pt-10 pb-20">
         <div className="w-full max-w-5xl px-6 mx-auto">
           <h2
-            className="mb-20 text-3xl font-bold tracking-tight text-white lg:text-5xl"
+            className="mb-20 text-3xl font-bold text-white lg:text-5xl"
             id="events"
           >
             See Us Live

@@ -6,9 +6,19 @@ export default function Navigation() {
       <ul className="w-full mt-10 space-y-10 text-2xl font-semibold leading-6 text-center text-white uppercase lg:space-y-0 lg:flex md:text-sm lg:text-lg gap-x-6 lg:mt-0">
         <li>
           <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? 'text-amber-500' : 'hover:text-amber-500'
+            }
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/events"
             className={({ isActive }) =>
-              isActive ? 'border-b-2 pb-1' : 'hover:border-b-2 pb-1'
+              isActive ? 'text-amber-500' : 'hover:text-amber-500'
             }
           >
             Shows
@@ -18,7 +28,7 @@ export default function Navigation() {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              isActive ? 'border-b-2 pb-1' : 'hover:border-b-2 pb-1'
+              isActive ? 'text-amber-500' : 'hover:text-amber-500'
             }
           >
             Contact
