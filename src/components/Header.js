@@ -39,7 +39,7 @@ export default function Header({ size = 'small', className }) {
   return (
     <header>
       <nav
-        className={`flex items-center justify-between px-6 pb-6 pt-12 lg:px-14 transition-all duration-700 ${
+        className={`flex items-center justify-between px-6 pb-6 pt-6 lg:pt-12 lg:px-14 transition-all duration-700 ${
           show
             ? 'lg:transform lg:translate-y-0 lg:opacity-100'
             : 'lg:transform lg:-translate-y-full lg:opacity-0'
@@ -79,7 +79,7 @@ export default function Header({ size = 'small', className }) {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 flex flex-col w-full px-6 pt-12 pb-6 overflow-y-auto bg-black sm:max-w-sm sm:ring-1 sm:ring-white/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 flex flex-col w-full px-6 pt-6 pb-6 overflow-y-auto bg-black lg:pt-12 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Four Card Set</span>
