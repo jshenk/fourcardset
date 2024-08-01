@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </div>
       <div className="text-lg text-white bg-black">
-        <div className="flex flex-wrap justify-center max-w-4xl px-6 pt-0 pb-6 mx-auto text-center lg:py-12 lg:text-justify">
+        <div className="flex flex-wrap justify-center max-w-2xl px-6 pt-0 pb-6 mx-auto text-center lg:max-w-4xl lg:py-12 lg:text-justify">
           <h1 className="mb-12 font-mono text-4xl tracking-widest text-center uppercase lg:text-8xl">
             FourCardSet
           </h1>
@@ -40,11 +40,18 @@ const Home = () => {
             navigating through time.
           </p>
           <a
-            className="px-3 py-2 font-bold uppercase transition-colors duration-500 border-2 border-amber-500 hover:text-amber-500"
+            className="px-3 py-2 mr-6 font-bold uppercase transition-colors duration-500 border-2 md:mr-12 border-amber-500 hover:text-amber-500"
             href="/events"
             rel="noreferrer"
           >
             See Us Live
+          </a>
+          <a
+            className="px-3 py-2 font-bold uppercase transition-colors duration-500 border-2 border-amber-500 hover:text-amber-500"
+            href="/contact"
+            rel="noreferrer"
+          >
+            Book Us
           </a>
         </div>
       </div>
