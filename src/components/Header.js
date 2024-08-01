@@ -54,7 +54,7 @@ export default function Header({ size = 'small', className }) {
               height={logoSize[size]}
               width={logoSize[size]}
               alt="homepage banner"
-              className="w-12 h-12 lg:h-28 lg:w-28"
+              className="w-12 h-12 lg:h-24 lg:w-24"
             />
           </a>
         </div>

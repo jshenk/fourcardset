@@ -21,9 +21,10 @@ const Home = () => {
       </div>
       <div className="text-lg text-white bg-black">
         <div className="flex flex-wrap justify-center max-w-2xl px-6 pt-0 pb-6 mx-auto text-center lg:max-w-4xl lg:py-12 lg:text-justify">
-          <h1 className="mb-12 font-mono text-4xl tracking-widest text-center uppercase lg:text-8xl">
-            FourCardSet
+          <h1 className="mb-6 text-4xl text-center uppercase lg:mb-12 lg:text-8xl logo-font lg:absolute lg:bottom-0">
+            Fourcardset
           </h1>
+
           <p className="mb-6">
             Formed by four work friends, the Indie/Alternative rock band has
             quickly ascended in the Maryland music scene. Fourcardset is lead by

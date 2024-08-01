@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'LocalBreweryFour';
+  src: url('/src/assets/fonts/LocalBreweryFour.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-font {
+  font-family: 'LocalBreweryFour', sans-serif;
+}
