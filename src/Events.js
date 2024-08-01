@@ -35,8 +35,8 @@ const Events = () => {
           </h2>
           <div>
             <div className="grid grid-cols-2 mb-10 gap-x-3">
-              <img src={Film} alt="waterfront" />
-              <img src={GroupCouch} alt="group" />
+              <img src={Film} alt="waterfront" className="rounded" />
+              <img src={GroupCouch} alt="group" className="rounded" />
             </div>
 
             <div className="max-w-3xl mx-auto my-10 divide-y">
@@ -57,11 +57,11 @@ const Events = () => {
               })}
             </div>
             <div className="grid grid-cols-2 mb-10 gap-x-3">
-              <div className="lg:h-[400px] h-[110px] overflow-hidden flex items-center">
-                <img src={Blockparty} alt="waterfront" />
+              <div className="lg:h-[400px] h-[110px] overflow-hidden flex items-center rounded">
+                <img src={Blockparty} alt="waterfront" className="rounded" />
               </div>
-              <div className="lg:h-[400px] h-[110px] overflow-hidden flex items-center">
-                <img src={Worthington} alt="group" />
+              <div className="lg:h-[400px] h-[110px] overflow-hidden flex items-center rounded">
+                <img src={Worthington} alt="group" className="rounded" />
               </div>
             </div>
           </div>
