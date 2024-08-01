@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </div>
       <div className="text-lg text-white bg-black">
-        <div className="flex flex-wrap justify-center max-w-2xl px-6 pt-0 pb-6 mx-auto text-center lg:max-w-4xl lg:py-12 lg:text-justify">
+        <div className="flex flex-wrap justify-center max-w-2xl px-6 pt-0 pb-6 mx-auto text-center lg:max-w-2xl lg:py-12 lg:text-justify">
           <h1 className="mb-6 text-6xl text-center uppercase lg:mb-12 lg:text-8xl logo-font lg:absolute lg:bottom-0">
             Fourcardset
           </h1>
