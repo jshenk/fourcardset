@@ -8,7 +8,9 @@ export default function Navigation() {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? 'text-amber-500' : 'hover:text-amber-500'
+              isActive
+                ? 'text-amber-500'
+                : 'hover:text-amber-500 transition-colors duration-500'
             }
           >
             Home
@@ -18,7 +20,9 @@ export default function Navigation() {
           <NavLink
             to="/events"
             className={({ isActive }) =>
-              isActive ? 'text-amber-500' : 'hover:text-amber-500'
+              isActive
+                ? 'text-amber-500'
+                : 'hover:text-amber-500 transition-colors duration-500'
             }
           >
             Shows
@@ -28,7 +32,9 @@ export default function Navigation() {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              isActive ? 'text-amber-500' : 'hover:text-amber-500'
+              isActive
+                ? 'text-amber-500'
+                : 'hover:text-amber-500 transition-colors duration-500'
             }
           >
             Contact

@@ -39,7 +39,7 @@ export default function Event({
             href={tickets}
             target="_blank"
             rel="noreferrer"
-            className="inline-block px-4 py-3 mt-4 text-xs font-semibold text-black uppercase rounded shadow-sm bg-zinc-200 hover:bg-zinc-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-200"
+            className="inline-block px-4 py-3 mt-4 text-xs font-semibold text-black uppercase transition-colors duration-500 bg-white hover:bg-amber-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-200"
           >
             Get Tickets
           </a>
