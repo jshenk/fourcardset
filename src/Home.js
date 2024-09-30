@@ -23,7 +23,7 @@ const Home = () => {
               className="px-6 py-3 font-bold text-white uppercase transition-colors duration-500 border-2 border-amber-500 hover:text-amber-500"
               href="https://open.spotify.com/track/3yyGogcurfoUBLvcHOjEMU?si=f48bfba5b81046f8"
             >
-              Out Now
+              Stream Now
             </a>
           </div>
         </div>
@@ -38,6 +38,7 @@ const Home = () => {
           <h1 className="mb-6 text-4xl text-center uppercase lg:text-6xl logo-font">
             Fourcardset
           </h1>
+
           <p className="mb-6">
             Formed by four work friends, the Indie/Alternative rock band has
             quickly ascended in the Maryland music scene. Fourcardset is lead by
