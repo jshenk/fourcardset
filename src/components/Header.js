@@ -48,7 +48,7 @@ export default function Header({ size = 'small', className }) {
       >
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Four Card Set</span>
+            <span className="sr-only">fourcardset</span>
             <img
               src={BandLogo}
               height={logoSize[size]}
@@ -82,7 +82,7 @@ export default function Header({ size = 'small', className }) {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 flex flex-col w-full px-6 pt-6 pb-6 overflow-y-auto bg-black lg:pt-12 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Four Card Set</span>
+              <span className="sr-only">fourcardset</span>
               <img
                 src={BandLogo}
                 height={logoSize[size]}

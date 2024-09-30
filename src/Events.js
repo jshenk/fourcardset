@@ -39,7 +39,7 @@ const Events = () => {
               <img src={GroupCouch} alt="group" className="rounded" />
             </div>
 
-            <div className="max-w-3xl mx-auto my-10 divide-y">
+            <div className="max-w-3xl mx-auto my-10 border-t border-b divide-y">
               {filteredData.map((card) => {
                 const momentDate = moment(card.date);
                 const formattedDate = momentDate.format('MMMM Do @ h:mma');
