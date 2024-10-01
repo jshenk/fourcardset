@@ -1,16 +1,10 @@
 export const cards = [
   {
-    name: 'Waterfront Hotel',
+    name: 'Baltimore Taco Festival Power Plant Live! - Main Stage',
     location: 'Balitmore, MD',
-    date: '2024-08-10T21:30:00',
-    link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
+    date: '2024-10-05T14:30:00',
+    link: 'https://maps.app.goo.gl/1YDd6yD4wrV7bL8Z7',
     id: 1,
-  },
-  {
-    name: 'Private Event',
-    location: 'Balitmore, MD',
-    date: '2024-08-31T21:00:00',
-    id: 3,
   },
   {
     name: 'Waterfront Hotel',
@@ -18,5 +12,12 @@ export const cards = [
     date: '2024-10-25T21:30:00',
     link: 'https://maps.app.goo.gl/4P2Bvgi5fREt5PSE8',
     id: 2,
+  },
+  {
+    name: 'Monument City Brewing W/ Los Fellas',
+    location: 'Balitmore, MD',
+    date: '2024-11-16T19:00:00',
+    link: 'https://maps.app.goo.gl/HhZZYSpCfqZw3rsVA',
+    id: 3,
   },
 ];
