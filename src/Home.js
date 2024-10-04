@@ -21,7 +21,7 @@ const Home = () => {
             </h2>
             <a
               className="px-6 py-3 font-bold text-white uppercase transition-colors duration-500 border-2 border-amber-500 hover:text-amber-500"
-              href="https://open.spotify.com/track/3yyGogcurfoUBLvcHOjEMU?si=f48bfba5b81046f8"
+              href="https://open.spotify.com/album/0ZdTghu8W0Q7oe1xdAUX3N"
             >
               Stream Now
             </a>
