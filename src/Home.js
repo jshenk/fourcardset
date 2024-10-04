@@ -17,7 +17,7 @@ const Home = () => {
           <div className="absolute left-0 right-0 z-10 flex flex-col items-center w-full top-1/2">
             <p className="mb-2 text-white uppercase">New Single</p>
             <h2 className="mb-12 font-serif text-3xl font-bold text-white lg:text-7xl">
-              Color In Your Eyes
+              Honeysuckle
             </h2>
             <a
               className="px-6 py-3 font-bold text-white uppercase transition-colors duration-500 border-2 border-amber-500 hover:text-amber-500"
