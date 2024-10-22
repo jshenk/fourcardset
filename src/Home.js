@@ -15,13 +15,13 @@ const Home = () => {
             className="object-cover object-top w-full lg:h-screen h-[500px] lg:absolute lg:bottom-0 lg:left-0"
           />
           <div className="absolute left-0 right-0 z-10 flex flex-col items-center w-full top-1/2">
-            <p className="mb-2 text-white uppercase">New Single</p>
+            <p className="mb-2 text-white uppercase">New EP</p>
             <h2 className="mb-12 font-serif text-3xl font-bold text-white lg:text-7xl">
-              Honeysuckle
+              Overtime
             </h2>
             <a
               className="px-6 py-3 font-bold text-white uppercase transition-colors duration-500 border-2 border-amber-500 hover:text-amber-500"
-              href="https://open.spotify.com/album/0ZdTghu8W0Q7oe1xdAUX3N"
+              href="https://open.spotify.com/album/5kIGwHeDIbj05s3yCsabLe?si=gbCjHQSXTrWMpNVo7m_P7Q"
             >
               Stream Now
             </a>
@@ -50,7 +50,7 @@ const Home = () => {
           <p className="mb-12">
             In their debut EP - Overtime, fourcardset focuses in on a diverse
             but cohesive sound that is “true to themselves” and highlights each
-            individuals musical background and interests. Written by Ben, the
+            individuals' musical background and interests. Written by Ben, the
             self produced EP explores themes of past lives, childhood, and
             navigating through time.
           </p>
