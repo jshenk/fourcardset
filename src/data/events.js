@@ -2,7 +2,7 @@ export const cards = [
   {
     name: 'The Worthington',
     location: 'Balitmore, MD',
-    date: '2025-03-28T19:00:00',
+    date: '2025-03-28T21:00:00',
     link: 'https://maps.app.goo.gl/yrGv1dk3YVZuEh6U6',
     id: 1,
   },  
