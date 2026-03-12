@@ -18,7 +18,7 @@ export const cards = [
     location: 'Baltimore, MD',
     date: '2026-05-02T19:00:00',
     id: 3,
-  }
+  },
   {
     name: 'Waterfront Hotel',
     location: 'Balitmore, MD',
