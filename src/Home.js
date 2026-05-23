@@ -48,7 +48,7 @@ const Home = () => {
             multifaceted sound to their audience.
           </p>
           <p className="mb-12">
-            Serving as the high-energy follow-up to their debut EP, 
+            Serving as the high-energy follow-up to their debut EP,  
             <a href="https://open.spotify.com/album/5kIGwHeDIbj05s3yCsabLe?si=nnlu1c9_TsS_jkAAVNhdLg">Overtime</a>
             , fourcardset’s latest single "Runaway" dives headfirst into the 
             beautiful chaos of falling in love. Built on a foundation of infectious 
