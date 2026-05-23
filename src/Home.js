@@ -1,6 +1,6 @@
 import './App.css';
 
-import AlbumTree from './assets/RunawayCover.PNG';
+import AlbumTree from './assets/RunawayCover.png';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
