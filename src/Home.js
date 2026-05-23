@@ -42,8 +42,8 @@ const Home = () => {
           <p className="mb-6">
             Formed by four work friends, the Indie/Alternative rock band has
             quickly ascended in the Maryland music scene. Fourcardset is lead by
-            multi-instrumentalist/vocalist Ben Lucier, Joe
-            Consoli, bassist Cody Tilson, and drummer Austin Freilich. With
+            multi-instrumentalist/vocalist Ben Lucier, guitarist/sound engineer Joey
+            Consoli, drummer Austin Freilich, and bassist Cody Tilson. With
             roots in various genres of music, the group brings a dynamic,
             multifaceted sound to their audience.
           </p>
